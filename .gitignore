@@ -1,0 +1,33 @@
+*.swp
+__pycache__
+.pytest_cache
+.venv
+*.egg-info
+
+# CDK asset staging directory
+.cdk.staging
+cdk.out
+
+# Secrets & environment files
+.env
+*.env.local
+*.env.production
+
+# Database files
+*.db
+*.sqlite3
+
+# Private keys & certificates
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Frontend
+node_modules/
+dist/
+
+# Local data & backups
+api/uploads/
+*.tar.gz
+*.env.aws
